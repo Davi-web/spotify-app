@@ -44,7 +44,7 @@ const LOCALSTORAGE_VALUES = {
   name: window.localStorage.getItem(LOCALSTORAGE_KEYS.name),
 };
 
-const LOGIN_URI = "https://musicalover.com/v1/login";
+const LOGIN_URI = "http://localhost:8080/v1/login";
 
 const Login = ({}) => {
   return (
